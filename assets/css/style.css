@@ -261,9 +261,24 @@ footer{
 }
 footer .footer-content{
         display: flex;
-        justify-content: space-between;
         align-items: center;
+        justify-content: space-around;
+
 }
+
+
+
+@media only screen and (max-width: 970px) {
+   footer .footer-content{
+        flex-direction: column;
+    }
+    .footer-content img {
+        margin-top: 30px;
+    }
+
+  }
+
+
 
 .presentation-modal{
     position: fixed;
