@@ -1,0 +1,30 @@
+.tendencies-content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.tendencie-box{
+    width: 30%;
+    margin: 16px 0;
+    position: relative;
+}
+
+.tendencie-items{
+    padding: 0 12px;
+    position: absolute;
+    bottom: 4px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tendencie-box img{
+    width: 100%;
+    border: 3px solid #393939;   
+}

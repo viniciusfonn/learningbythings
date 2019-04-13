@@ -1,0 +1,75 @@
+ul{
+    align-items: center;
+}
+
+.welcome{
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome p{
+    margin-right: 10px;
+}
+
+.profile{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.user-info{
+    padding: 40px 0;
+    background-color: #393939;
+    height: 100%;
+    text-align: center;
+}
+
+.user-info p{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.user-options{
+    padding: 10px 0; 
+    text-align: center;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style */
+
+
+.container2{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+
+
+.edit-profile-teacher label {
+
+    color: white;
+}
+
+.edit-profile-teacher {
+    background-color: #393939;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    
+}
+
+.edit-profile-teacher input {
+
+}
+
+
+

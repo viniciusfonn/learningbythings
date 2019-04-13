@@ -1,0 +1,142 @@
+<?php session_start(); ?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Learning By Things</title>
+	
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/vendor/bootstrap-grid.min.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/option.css">
+
+	<!-- SEO -->
+
+	<meta name="title" content="Learning By Things">
+	
+	<meta name="description" content="">
+
+	<meta name="keywords" content=""/>
+
+	<!-- FACEBOOK META -->
+
+	<meta property="og:title" content="Learning By Things">
+	<meta property="og:site_name" content="Learning By Things">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="assets/img/">
+	<meta property="og:image:type" content="image/png">
+	<meta property="og:image:width" content="800"> 
+	<meta property="og:image:height" content="600">
+	<meta property="og:description" content="">
+</head>
+<body>
+	<header>
+		<div class="menu-desktop">
+			<div class="container">
+				<div class="row">
+					<div class="menu-content">
+						<figure>
+							<a href="index.html">
+								<img src="assets/img/learning-by-things-logo.png" alt="Reden Bridges - Logo">
+							</a>
+						</figure>	
+						<nav class="nav-desktop hide-mobile">
+							<ul>
+								<li><a href="#" class="sign-in">Entrar</a></li>
+								<li><a href="#" class="sign-up">Cadastre-se</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<form class="form">
+            <div class="container">
+                <div class="row">
+                        <h1>Faça seu cadastro, <strong>Aprendiz</strong></h1>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome_teacher" id="nome" placeholder="Digite seu nome">
+                    </div>
+                    <div class="col">
+						<label for="email">E-mail</label>
+						<input type="email" name="email_teacher" id="email" placeholder="Digite seu E-mail">
+					</div>
+					<div class="col">
+						<label for="ConfEmail">Confirmar E-mail</label>
+						<input type="email" name="confemail_teacher" id="confemail" placeholder="Confirme o E-mail">
+					</div>
+				</div>
+				<div class="row">
+						<div class="col">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha_teacher" id="senha" placeholder="Digite sua senha">
+                    </div>
+                    <div class="col">
+						<label for="ConfSenha">Confirmar Senha</label>
+						<input type="password" name="confsenha_teacher" id="confsenha" placeholder="Confirme a senha">
+					</div>
+					<div class="col">
+							<label for="Sexo">Sexo</label>
+							<select name="sexo">
+								<option>Masculino</option>
+								<option>Feminino</option>
+								<option>Outro</option>
+							</select>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-md-4">
+						<label for="data">Data de nascimento</label>
+						<input type="text" name="datanasc_teacher" id="data">
+					</div>
+					<div class="col col-md-4">
+						<label for="Descricao">Descrição</label>
+						<textarea name="descricao_teacher" id="descricao" cols="42" rows="10" placeholder="Descrição do perfil"></textarea>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col col-md-4">
+							<label for="Materia">Matéria</label>
+							<select name="sexo">
+								<option>Estrutura de dados</option>
+							</select>
+					</div>
+				</div>
+			</div>
+			<div class="buttons">
+					<button class="cadButton"> Realizar Cadastro </button>
+			</div>
+        </form>
+	</main>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col col-12">
+					<div class="footer-content">
+						<img src="assets/img/apoiador-ifsul.png" alt="Instituto Federal Sul-Rio-Grandense">
+						<img src="assets/img/apoiador-ufpel.png" alt="Universidade Federal de Pelotas">
+						<img src="assets/img/apoiador-ppgc.png" alt="Programa de Pós-Graduação em Computação">
+						<img src="assets/img/apoiador-aveiro.png" alt="Universidade de Aveiro">
+						<img src="assets/img/apoiador-digimedia.png" alt="DigiMedia">
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+
+	<script src="assets/js/vendor/jquery-3.2.0.min.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>

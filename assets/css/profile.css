@@ -1,0 +1,81 @@
+ul{
+    align-items: center;
+}
+
+.welcome{
+    color: white;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome p{
+    margin-right: 10px;
+}
+
+.profile{
+    width: 100%;
+    padding: 100px 0;
+}
+
+.user-info{
+    padding: 40px 0;
+    background-color: #393939;
+    height: 100%;
+    text-align: center;
+}
+
+.user-info p{
+    color: white;
+    font-size: 1.5em;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+.user-options{
+    padding: 10px 0; 
+    text-align: center;
+}
+
+.buttons{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.editProfile, .deleteProfile{
+    padding: 8px 12px;
+    background-color: transparent;
+    font-weight: 700;
+    font-size: 1em;
+    transition: .3s all;
+    cursor: pointer;
+    outline: none;
+}
+
+.editProfile{
+    color: #3498DB;
+    border: 2px solid #3498DB;
+}
+.editProfile:hover{
+    background-color: #3498DB;
+    color: white;
+}
+
+.deleteProfile{
+    color: #E74C3C;
+    border: 2px solid #E74C3C;
+}
+
+.deleteProfile:hover{
+    background-color: #E74C3C;
+    color: white;
+}
+
+
+
+
+
+
+
