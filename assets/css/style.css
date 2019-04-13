@@ -9,6 +9,7 @@ body
 {
     margin: 0;
     padding: 0;
+    background-color: #393A3C;
 }
 li
 {
@@ -125,12 +126,15 @@ body{
 header{
     width: 100%;
     box-shadow: 0 5px 15px rgba(0,0,0,.15);
+    height: 170px;
 }
 
 header .menu-desktop{
     height: 150px;
     background-color: #393A3C;
     border-bottom: 3px solid white;
+    height: 170px;
+
 }
 
 header .menu-content{
@@ -141,14 +145,32 @@ header .menu-content{
     height: 150px;
 }
 
+.menu-content figure a {
+    max-width: 1200px;
+    max-height: 510px;
+}
+
+.menu-content figure a img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+@media only screen and (max-width: 970px) {
+    .menu-content{
+        flex-direction: column;
+    }
+  }
+
+
 header nav ul{
     display: flex;
 }
 header nav li{
-    margin-left: 24px;
+    margin-left: 15px;
 }
 header .sign-in{
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: 700;
     color: white;
     text-transform: uppercase;
@@ -156,13 +178,13 @@ header .sign-in{
 header .sign-in:hover{
     color:grey;
 }
-header .sign-up{
-    font-size: 1.5em;
+ .sign-up{
+    font-size: 1em;
     font-weight: 700;
     color: #393A3C;
     text-transform: uppercase;
     background-color: white;
-    padding: 12px 24px;
+    padding: 2px 2px;
 }
 header .sign-up:hover{
     background-color: grey;
@@ -173,6 +195,24 @@ header .sign-up:hover{
     width: 100%;
     background-color: #393A3C;
 }
+
+.nav-desktop{
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 375px) {
+   .hide{
+       display: none;
+   }
+   }
+
+
+
+@media only screen and (max-width: 970px) {
+   .nav-desktop{
+       margin-top: 0px;
+   }
+  }
 .presentation h1{
     margin: 0 0 16px;
     text-transform: uppercase;
@@ -180,6 +220,17 @@ header .sign-up:hover{
     font-size: 2.25em;
     color: white;
 }
+
+.name-header {
+    color: white;
+}
+
+.menu-content figure a {
+    max-width: 1120px;
+    max-height: 562px;
+}
+
+
 
 .presentation .presentation-content{
     width: 100%;
@@ -483,3 +534,5 @@ table th {
     border-bottom: 0;
   }
 }
+
+
